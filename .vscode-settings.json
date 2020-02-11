@@ -1,0 +1,180 @@
+{
+  "timeline.showView": true,
+  "search.enableSearchEditorPreview": true,
+  "workbench.colorTheme": "Everset",
+  "window.titleBarStyle": "custom",
+  "editor.fontFamily": "'Cascadia Code', 'Input Mono Condensed', 'Courier New', monospace",
+  "editor.fontSize": 14,
+  "editor.fontLigatures": true,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": false,
+  "editor.cursorSurroundingLines": 5,
+  "editor.minimap.enabled": false,
+  "editor.lineHeight": 26,
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "files.eol": "\n",
+  "git.autofetch": true,
+  "workbench.sideBar.location": "right",
+  "npm.enableScriptExplorer": true,
+  "breadcrumbs.enabled": true,
+  "emmet.preferences": {
+    "stylus.valueSeparator": ": "
+  },
+  "emmet.includeLanguages": {
+    "liquid": "html",
+    "javascript": "javascriptreact"
+  },
+  "window.zoomLevel": 1,
+  "explorer.confirmDelete": false,
+  "liveshare.featureSet": "insiders",
+  "atlascode.jira.workingSite": {
+    "baseUrlSuffix": "atlassian.net"
+  },
+  "yaml.schemas": {
+    "file:///home/jimmy/.vscode-server/extensions/atlassian.atlascode-1.4.3/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "remote.extensionKind": {
+    "atlassian.atlascode": "workspace"
+  },
+  "vim.useSystemClipboard": true,
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<leader>",
+        "p"
+      ],
+      "after": [
+        "\"",
+        "0",
+        "p"
+      ]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        " ",
+        "e"
+      ],
+      "commands": [
+        {
+          "command": "editor.action.marker.nextInFiles"
+        }
+      ]
+    },
+    {
+      "before": [
+        " ",
+        "E"
+      ],
+      "commands": [
+        {
+          "command": "editor.action.marker.prevInFiles"
+        }
+      ]
+    },
+    {
+      "before": [
+        "tab"
+      ],
+      "commands": [
+        {
+          "command": "workbench.action.navigateEditorGroups"
+        }
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "p"
+      ],
+      "after": [
+        "\"",
+        "0",
+        "p"
+      ]
+    },
+    {
+      "before": [
+        "u"
+      ],
+      "after": [],
+      "commands": [
+        {
+          "command": "undo",
+          "args": []
+        }
+      ]
+    },
+    {
+      "before": [
+        "<C-r>"
+      ],
+      "after": [],
+      "commands": [
+        {
+          "command": "redo",
+          "args": []
+        }
+      ]
+    },
+    {
+      "before": [
+        " ",
+        "w"
+      ],
+      "after": [
+        "leader",
+        "leader",
+        "leader",
+        "b",
+        "d",
+        "w"
+      ]
+    },
+    {
+      "before": [
+        " ",
+        "j",
+        "k"
+      ],
+      "after": [
+        "leader",
+        "leader",
+        "leader",
+        "b",
+        "d",
+        "j",
+        "k"
+      ]
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.easymotion": true,
+  "vim.easymotionMarkerHeight": 20,
+  "vim.easymotionMarkerYOffset": 6,
+  "vim.easymotionMarkerWidthPerChar": 9,
+  "vim.easymotionMarkerFontWeight": "bold",
+  "remote.SSH.configFile": "C:\\Users\\jimmy\\.ssh\\config",
+  "workbench.iconTheme": "material-icon-theme",
+  "atlascode.jira.workingProject": {
+    "id": "15147",
+    "name": "Loom CMS",
+    "key": "LC"
+  },
+  "todo-tree.tree.showInExplorer": true,
+  "todo-tree.filtering.excludeGlobs": [
+    "**/node_modules/*"
+  ],
+  "git.confirmSync": false,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
